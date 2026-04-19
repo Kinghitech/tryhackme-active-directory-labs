@@ -80,3 +80,40 @@ The lab covers core AD components, user and computer management, authentication,
 - Reset user passwords using PowerShell:
 ```powershell
 Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString -Prompt 'New Password')
+
+✅ Managing Computers
+Created Organizational Units:
+Workstations
+Servers
+Moved machines into appropriate OUs
+
+✅ Delegation
+Assigned permissions to allow a user to reset another user’s password
+
+✅ Group Policy
+Explored how policies are applied across domain users and systems
+
+🔐 Security Insights
+AD is a high-value target because it controls authentication across the network
+Misconfigured permissions can lead to:
+Privilege escalation
+Lateral movement
+Group memberships (e.g., Domain Admins) are critical attack targets
+
+🧠 What I Learned
+How enterprise environments manage identity and access
+The importance of least privilege
+How authentication works in real-world networks
+Foundational knowledge needed for:
+SOC Analyst roles
+Active Directory attacks (future labs)
+
+🚀 Skills Demonstrated
+Active Directory Administration (Basic)
+Windows Server Navigation
+PowerShell Usage
+Identity & Access Management (IAM)
+Security Awareness in Enterprise Environments
+
+🔗 Lab Link
+https://tryhackme.com/room/winadbasics
