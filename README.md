@@ -1,126 +1,152 @@
-# 🔐 Windows Active Directory Basics Lab (TryHackMe)
+# 🔐 Active Directory Security & Identity Lab Portfolio
 
-This repository documents my hands-on completion of the **Windows Active Directory Basics** lab from TryHackMe.
+Welcome to my hands-on **Active Directory and Identity & Access Management (IAM) lab portfolio**.
 
-The purpose of this project is to demonstrate practical experience with **Active Directory (AD)** concepts used in real-world enterprise environments.
+This repository documents my practical experience building, administering, securing, and assessing **Windows Active Directory environments** through hands-on labs and security exercises.
 
----
-
-## 🎯 Objectives
-
-* Understand how **Windows Active Directory** environments operate
-* Learn how to manage **users, groups, and computers**
-* Explore **Organizational Units (OUs)** and domain structure
-* Understand **Group Policy Objects (GPOs)**
-* Learn how **authentication works (Kerberos & NTLM)**
+The goal of this portfolio is to develop practical skills that apply to **IAM, Cybersecurity, System Administration, and Cloud Identity** roles.
 
 ---
 
-## 🛠️ Hands-On Actions Performed
+## 🎯 Portfolio Objectives
 
-During this lab, I:
+Through these labs, I am developing hands-on experience with:
 
-* Created and managed **Active Directory user accounts**
-* Reset user passwords using **PowerShell**
-* Organized users and systems into **Organizational Units (OUs)**
-* Navigated **Active Directory Users & Computers (ADUC)**
-* Explored **Group Policy Objects (GPOs)** and how they apply to users and systems
-* Observed how authentication works within a domain environment
-
----
-
-## 🧠 Key Concepts Learned
-
-* **Active Directory (AD):** Centralized identity and access management system
-* **Domain Controller (DC):** Server responsible for authentication and directory services
-* **Organizational Units (OUs):** Logical containers for organizing users and computers
-* **Group Policy (GPO):** Used to enforce security and configuration settings
-* **Authentication Protocols:**
-
-  * Kerberos (ticket-based authentication)
-  * NTLM (legacy authentication)
+- Active Directory administration
+- Identity & Access Management (IAM)
+- User and group management
+- Authentication and authorization
+- Kerberos and NTLM
+- Group Policy
+- Active Directory enumeration
+- Privilege management
+- Credential security
+- Lateral movement
+- Active Directory security
+- PowerShell
+- Security monitoring and detection
+- Least privilege
+- Enterprise identity security
 
 ---
 
-## 🌍 Real-World Application
+# 🧪 Labs
 
-Active Directory is used in most enterprise environments to manage authentication and authorization.
+## 🪟 Windows Active Directory Basics
 
-Security misconfigurations in AD can lead to:
+**Focus:** Active Directory administration and identity fundamentals
 
-* Privilege escalation
-* Credential compromise
-* Lateral movement across systems
-* Full domain compromise
+Topics covered:
 
-This lab provides foundational knowledge required for:
+- Active Directory Users & Computers (ADUC)
+- User and group management
+- Organizational Units (OUs)
+- Group Policy Objects (GPOs)
+- Domain Controllers
+- Kerberos
+- NTLM
+- PowerShell
 
-* SOC Analyst roles
-* IT Support / System Administration
-* Identity & Access Management (IAM)
-
----
-
-## ⚠️ Challenges Faced
-
-* Learning how Active Directory components relate to each other
-* Navigating the AD interface for the first time
-* Understanding how Organizational Units are structured
-* Writing and executing PowerShell commands correctly
+📁 [View Windows AD Basics Lab](./Windows-AD-Basics/)
 
 ---
 
-## ✅ How I Solved Them
+## 🔎 Active Directory Security Testing Basics
 
-* Repeated hands-on tasks to reinforce understanding
-* Practiced PowerShell commands within the lab environment
-* Broke down concepts like OUs and GPOs step-by-step
-* Tested configurations to observe their effects
+**Focus:** Active Directory enumeration, authentication, credential security, and attack techniques
 
----
+Topics covered:
 
-## 📸 Screenshots
+- Active Directory enumeration
+- Authentication
+- Password spraying
+- Network enumeration
+- Authenticated enumeration
+- Credential harvesting
+- Lateral movement
+- Pass-the-Hash
+- PsExec
+- WinRM
+- Active Directory security weaknesses
 
----
-
-## 🧱 Lab Environment
-
-* Platform: TryHackMe
-* Environment: Windows Server (Domain Controller)
-* Access Method: Remote Desktop (RDP)
-* Tools Used:
-
-  * Active Directory Users & Computers (ADUC)
-  * PowerShell
-  * Group Policy Management
+📁 [View AD Security Testing Lab](./AD-Security-Testing-Basics/)
 
 ---
 
-## 🎯 Skills Demonstrated
+# 🧠 Core Skills
 
-* Active Directory Fundamentals
-* User & Group Management
-* Identity & Access Management (IAM)
-* PowerShell Basics
-* Enterprise Security Concepts
+### Active Directory
+
+- Domain Controllers
+- Users & Groups
+- Organizational Units
+- Group Policy
+- Domain Administration
+- Active Directory Security
+
+### Identity & Access Management
+
+- Authentication
+- Authorization
+- RBAC
+- Least Privilege
+- Privileged Access
+- Identity Lifecycle
+- Access Control
+
+### Security
+
+- Active Directory Enumeration
+- Credential Security
+- Privilege Escalation
+- Lateral Movement
+- Security Monitoring
+- Attack Detection
+- Security Hardening
+
+### Tools & Technologies
+
+- Windows Server
+- Active Directory
+- PowerShell
+- SMB
+- LDAP
+- Kerberos
+- NTLM
+- PsExec
+- WinRM
+- BloodHound
+- TryHackMe
 
 ---
 
-## 🔗 Lab Link
+# 🌎 Why Active Directory?
 
-https://tryhackme.com/room/winadbasics
+Active Directory is a foundational identity platform used throughout enterprise environments.
 
----
+Understanding how Active Directory manages **users, authentication, authorization, groups, computers, and privileged access** provides a strong foundation for modern IAM and cloud identity platforms such as **Microsoft Entra ID**.
 
-## 🚀 Next Steps
+These labs allow me to approach identity security from both perspectives:
 
-* Practice Active Directory attack techniques (e.g., enumeration)
-* Learn tools such as BloodHound and PowerView
-* Expand into cloud identity (Microsoft Entra ID / Azure)
-* Continue building hands-on cybersecurity labs
+**Administration → Security → Attack → Detection → Defense**
 
 ---
 
-## 📌 Summary
+# 🔐 IAM Career Development
 
-This project demonstrates foundational, hands-on experience with Active Directory in a simulated enterprise environment. It serves as a stepping stone toward more advanced cybersecurity concepts such as **Active Directory security, detection, and defense**.
+This portfolio is part of my progression toward **Identity & Access Management and Cloud Security**.
+
+My current learning path:
+
+```text
+Active Directory
+       ↓
+IAM Fundamentals
+       ↓
+Microsoft Entra ID
+       ↓
+Privileged Identity Management (PIM)
+       ↓
+Identity Governance
+       ↓
+Cloud Security
